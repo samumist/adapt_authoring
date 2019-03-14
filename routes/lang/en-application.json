@@ -338,5 +338,7 @@
   "app.titlelock": "Link with title",
   "app.titleunlock": "Unlink from title",
   "app.maxfileuploadsize": "Maximum upload file size: %{size}.",
-  "app.uploadsizeerror": "File size limit exceeded. Expected no more than %{max}, received %{size}."
+  "app.uploadsizeerror": "File size limit exceeded. Expected no more than %{max}, received %{size}.",
+  "app.viewingmycourses": "Dashboard - viewing my courses",
+  "app.viewingsharedcourses": "Dashboard - viewing shared courses"
 }
