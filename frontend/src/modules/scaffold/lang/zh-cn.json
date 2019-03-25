@@ -1,0 +1,22 @@
+{
+  "app.scaffold": {
+    "general": "常规设置",
+    "properties": "参数设置",
+    "settings": "其它设置",
+    "extensions": "扩展设置",
+    "_graphic": "图片设置",
+    "_onScreen": "屏幕视区CSS设置",
+    "screenSize": "屏幕尺寸",
+    "_start": "首页设置",
+    "_buttons": "按钮设置",
+    "_globals": "全局标签",
+    "_completionCriteria": "课件完成",
+    "_accessibility": "无障碍辅助功能",
+    "_drawer": "课件抽屉",
+    "_logging": "系统记录",
+    "_scrollingContainer": "滚动支持",
+    "themeSettings": "主题设置",
+    "menuSettings": "菜单设置",
+    "colourPickerCancel": "取消选择"
+  }
+}
