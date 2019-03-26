@@ -37,10 +37,10 @@ define(function(require) {
   }
 
   function renderPageStructure(data) {
-    Origin.trigger('location:title:update', { title: 'Page editor' });
+    Origin.trigger('location:title:update', { title: Origin.l10n.t('app.pageeditor')});
 
     Origin.sidebar.addView(new EditorPageSidebarView().$el, {
-      "backButtonText": "Back to course structure",
+      "backButtonText": Origin.l10n.t('app.backtocoursestructure'),
       "backButtonRoute": "/#/editor/" + Origin.location.route1 + "/menu"
     });
     Origin.contentPane.setView(EditorView, {
@@ -51,12 +51,12 @@ define(function(require) {
   }
 
   function renderMenuStructure(data) {
-    Origin.trigger('location:title:update', { title: 'Menu editor' });
+    Origin.trigger('location:title:update', { title: Origin.l10n.t('app.menueditor')});
 
     Origin.editor.scrollTo = 0;
 
     Origin.sidebar.addView(new EditorMenuSidebarView().$el, {
-      "backButtonText": "Back to courses",
+      "backButtonText": Origin.l10n.t('app.backtocourses'),
       "backButtonRoute": Origin.dashboardRoute || '/#/dashboard'
     });
     Origin.contentPane.setView(EditorView, {
