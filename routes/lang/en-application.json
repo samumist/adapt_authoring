@@ -339,5 +339,15 @@
   "app.maxfileuploadsize": "Maximum upload file size: %{size}.",
   "app.uploadsizeerror": "File size limit exceeded. Expected no more than %{max}, received %{size}.",
   "app.viewingmycourses": "Dashboard - viewing my courses",
-  "app.viewingsharedcourses": "Dashboard - viewing shared courses"
+  "app.viewingsharedcourses": "Dashboard - viewing shared courses",
+  "app.newasset": "New Asset",
+  "app.editasset": "Edit Asset",
+  "app.pageeditor": "Page Editor",
+  "app.menueditor": "Menu Editor",
+  "app.backtocourses": "Back to coures",
+  "app.backtocoursestructure": "Back to course structure",
+  "app.selectmenu": "Select menu",
+  "app.selecttheme": "Select theme",
+  "app.backtomenu": "Back to menu",
+  "app.backtopage": "Back to page"
 }

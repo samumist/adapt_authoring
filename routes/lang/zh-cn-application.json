@@ -339,5 +339,15 @@
   "app.maxfileuploadsize": "最大上传文件大小：%{size}.",
   "app.uploadsizeerror": "超出预设的上传文件大小限制。预设文件大小最大不超过：％{max}，当前上传文件大小：％{size}。",
   "app.viewingmycourses": "课件中心 - 我的课件",
-  "app.viewingsharedcourses": "课件中心 - 共享课件"
+  "app.viewingsharedcourses": "课件中心 - 共享课件",
+  "app.newasset": "新增资源",
+  "app.editasset": "编辑资源",
+  "app.pageeditor": "页面编辑器",
+  "app.menueditor": "菜单编辑器",
+  "app.backtocourses": "返回课件中心",
+  "app.backtocoursestructure": "返回课件结构",
+  "app.selectmenu": "选择菜单",
+  "app.selecttheme": "选择主题",
+  "app.backtomenu": "返回菜单",
+  "app.backtopage": "返回页面"
 }
