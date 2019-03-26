@@ -174,6 +174,7 @@
   "app.searchtitleordescription": "按资源名称或资源描述搜索",
   "app.filter": "筛选",
   "app.filterbytags": "按标签搜索",
+  "app.filtertags": "筛选标签",
   "app.filetypeother": "其它",
   "app.filetypeimage": "图片",
   "app.filetypeaudio": "音频",
@@ -189,7 +190,7 @@
   "app.assetmanagement": "资源管理",
   "app.autofill": "自动填充",
   "app.extension": "扩展名称",
-  "app.extensions": "扩展名称",
+  "app.extensions": "扩展",
   "app.components": "组件",
   "app.themes": "主题",
   "app.menus": "菜单",
@@ -305,7 +306,6 @@
   "app.backtoassets": "返回资源管理",
   "app.newasset": "新增资源",
   "app.editasset": "编辑资源",
-  "app.assetmanagement": "资源管理",
   "app.tagfetcherror": "获取标签集合时出错。请尝试刷新页面。",
   "app.editornew": "新建课件",
   "app.editornewcoursetitle": "新建课件",
@@ -334,9 +334,10 @@
   "app.colourLabel": "颜色标签",
   "app.colourLabelTitle": "颜色标签",
   "app.colourLabelIntro": "颜色<b>仅在</b>Adapt 课件开发工具中应用，并且<b>不会影响生成的课件</b>。该设置与课件开发工具中的所有用户同步。",
-  "app.reset": "重置",
   "app.titlelock": "与标题关联",
   "app.titleunlock": "取消与标题关联",
   "app.maxfileuploadsize": "最大上传文件大小：%{size}.",
-  "app.uploadsizeerror": "超出预设的上传文件大小限制。预设文件大小最大不超过：％{max}，当前上传文件大小：％{size}。"
+  "app.uploadsizeerror": "超出预设的上传文件大小限制。预设文件大小最大不超过：％{max}，当前上传文件大小：％{size}。",
+  "app.viewingmycourses": "课件中心 - 我的课件",
+  "app.viewingsharedcourses": "课件中心 - 共享课件"
 }
