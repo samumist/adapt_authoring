@@ -10,7 +10,7 @@ define(function(require) {
   Origin.on('router:dashboard', function(location, subLocation, action) {
     Origin.trigger('editor:resetData');
 
-    Origin.trigger('location:title:update', {title: 'Dashboard - viewing my courses'});
+    Origin.trigger('location:title:update', {title: Origin.l10n.t('app.viewingmycourses')});
     Origin.options.addItems([
       {
         title: Origin.l10n.t('app.grid'),
@@ -65,11 +65,11 @@ define(function(require) {
   Origin.on('dashboard:loaded', function (options) {
     switch (options.type) {
       case 'shared':
-        Origin.trigger('location:title:update', {title: 'Dashboard - viewing shared courses'});
+        Origin.trigger('location:title:update', {title: Origin.l10n.t('app.viewingsharedcourses')});
         Origin.contentPane.setView(ProjectsView, { collection: new SharedProjectCollection });
         break;
       case 'all':
-        Origin.trigger('location:title:update', {title: 'Dashboard - viewing my courses'});
+        Origin.trigger('location:title:update', {title: Origin.l10n.t('app.viewingmycourses')});
         Origin.contentPane.setView(ProjectsView, { collection: new MyProjectCollection });
       default:
         break;
