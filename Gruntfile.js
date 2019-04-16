@@ -7,8 +7,8 @@ module.exports = function(grunt) {
     "merge-json": {
       en: {
         src: [
-          'routes/lang/en-application.json',
-          'frontend/src/**/lang/en.json'
+          'routes/lang/zh-cn-application.json',
+          'frontend/src/**/lang/zh-cn.json'
         ],
         dest: 'routes/lang/en.json'
       }

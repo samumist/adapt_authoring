@@ -1,0 +1,9 @@
+{
+  "app.scaffold": {
+    "general": "常规设置",
+    "properties": "参数设置",
+    "settings": "其它设置",
+    "extensions": "扩展设置",
+    "colourPickerCancel": "取消选择"
+  }
+}
