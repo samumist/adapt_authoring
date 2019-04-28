@@ -241,7 +241,7 @@
   "app.emailadminpasswordchangesubject": "你的密码已更改",
   "app.emailadminpasswordchangebody": "你的<a href='%{rootUrl}' target='_blank'>Adapt课件开发平台</a> 帐号密码已经成功重置。如果你本人没有提出的密码重置请求，请联系管理员。",
   "app.emailforgottenpasswordsubject": "重置你的密码",
-  "app.emailforgottenpasswordbody": "<p>我们收到了你的<a href='%{rootUrl}' target='_blank'>Adapt课件开发平台j</a> 密码重置请求，如果该请求是你本人提出的，请点击下面的按钮进行操作。</p><p>如果该请求不是你本人提出的，请忽略这个邮件。</p>",
+  "app.emailforgottenpasswordbody": "<p>我们收到了你的<a href='%{rootUrl}' target='_blank'>Adapt课件开发平台</a> 密码重置请求，如果该请求是你本人提出的，请点击下面的按钮进行操作。</p><p>如果该请求不是你本人提出的，请忽略这个邮件。</p>",
   "app.edittenant": "编辑租户",
   "app.addtenant": "新增租户",
   "app.tenant": "租户",
