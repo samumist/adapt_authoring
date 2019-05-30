@@ -23,7 +23,8 @@ define(function(require){
         autocomplete_url: 'api/autocomplete/tag',
         onAddTag: _.bind(this.onAddTag, this),
         onRemoveTag: _.bind(this.onRemoveTag, this),
-        'minChars' : 3,
+        'defaultText':'添加一个标签',
+        'minChars' : 2,
         'maxChars' : 30
       });
       // Set view to ready
